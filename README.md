@@ -16,19 +16,19 @@ A mobile app development company wants **data-driven recommendations** on:
 - The best **app categories** to target
 - Which **features** correlate with higher **ratings** and **downloads**
 
-## 📊 Dataset Overview
+## 📊 Data Source & Overview
 
-We used two datasets:
+The datasets were obtained from [Kaggle: Google Play Store Apps](https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore.csv). They include:
 
-- `googleplaystore.csv` (`app_data`): Contains app metadata (name, category, price, rating, installs, etc.)
-- `googleplaystore_user_reviews.csv` (`user_reviews`): Includes user sentiment analysis from reviews
+- `googleplaystore.csv` (`app_data`): Contains app metadata (e.g., name, category, price, rating, installs, etc.)
+- `googleplaystore_user_reviews.csv` (`user_reviews`): Includes user-generated reviews along with sentiment analysis (positive, neutral, negative)
 
 ## ⚙️ Tools & Libraries
 
 - `Python`
 - `Jupyter Notebook`
 - `Pandas`
-- `Numpy`
+- `NumPy`
 - `Pyjanitor`
 - `Plotly`
 - `Matplotlib`
